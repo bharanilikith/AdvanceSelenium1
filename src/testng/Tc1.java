@@ -29,15 +29,15 @@ public WebDriver driver;
 		String title = driver.getTitle();
 		
 		//syntax
-		Assert.assertEquals(actual,Expected);
+		//Assert.assertEquals(actual,Expected);
 		
 		//example
 		Assert.assertEquals(title,"435ersrestredf");
 		
 		
 		//Syntax
-		SoftAssert a=new SoftAssert();
-		a.assertEquals(actual, Expected);
+//		SoftAssert a=new SoftAssert();
+//		a.assertEquals(actual, Expected);
 		
 		
 		//example
